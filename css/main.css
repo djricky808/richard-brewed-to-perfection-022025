@@ -33,7 +33,7 @@ header li {
 
 .logo-left i {
   font-size: 5rem;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 
 .logo h1,
@@ -43,21 +43,31 @@ header li {
 }
 
 .logo h1 {
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 .logo p {
   font-family: var(--greatvibes-font);
-  font-size: 1.75rem;
+  font-size: 1rem;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .navbar ul li {
   margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--cream-color);
+  padding: 5px;
+}
+
+.navbar a:hover {
+  color: var(--orange-header-color);
 }
