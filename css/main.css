@@ -1,0 +1,63 @@
+:root {
+  --light-bg-color: #f6f1ee;
+  --dark-bg-color: #4f4a45;
+  --orange-header-color: #ed7d31;
+  --cream-color: #f0bb78;
+  --merriwether-font: "Merriweather Sans", serif;
+  --greatvibes-font: "Great Vibes", serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--merriwether-font);
+}
+
+/*Header*/
+header {
+  background-color: var(--dark-bg-color);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1,
+header p,
+header i,
+header li {
+  color: var(--cream-color);
+}
+
+.logo {
+  display: flex;
+}
+
+.logo-left i {
+  font-size: 5rem;
+  margin: 0 20px;
+}
+
+.logo h1,
+.logo p {
+  margin: 0;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 2.25rem;
+}
+
+.logo p {
+  font-family: var(--greatvibes-font);
+  font-size: 1.75rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
