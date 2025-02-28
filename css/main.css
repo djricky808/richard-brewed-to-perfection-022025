@@ -71,3 +71,40 @@ header li {
 .navbar a:hover {
   color: var(--orange-header-color);
 }
+
+/* Footer Section */
+footer {
+  padding: 20px;
+  background-color: var(--dark-bg-color);
+  color: var(--cream-color);
+}
+
+.footer-top {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-top h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.footer-top i {
+  font-size: 3rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom h3 {
+  font-size: 1.5rem;
+}
+
+.copyright h5 {
+  text-align: center;
+}
