@@ -74,7 +74,7 @@ header li {
 
 /* Footer Section */
 footer {
-  padding: 20px;
+  padding: 50px;
   background-color: var(--dark-bg-color);
   color: var(--cream-color);
 }
@@ -99,6 +99,7 @@ footer {
 .footer-bottom {
   display: flex;
   justify-content: space-between;
+  padding: 50px;
 }
 
 .footer-bottom h3 {
@@ -107,4 +108,14 @@ footer {
 
 .copyright h5 {
   text-align: center;
+}
+
+.contact-line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-line i {
+  font-size: 2rem;
 }
