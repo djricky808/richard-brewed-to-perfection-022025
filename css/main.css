@@ -18,6 +18,7 @@ header {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header h1,
@@ -43,12 +44,12 @@ header li {
 }
 
 .logo h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .logo p {
   font-family: var(--greatvibes-font);
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .navbar ul {
@@ -70,6 +71,10 @@ header li {
 
 .navbar a:hover {
   color: var(--orange-header-color);
+}
+
+section {
+  padding: 20px;
 }
 
 /* Footer Section */
@@ -104,6 +109,11 @@ footer {
 
 .footer-bottom h3 {
   font-size: 1.5rem;
+}
+
+.address-line p {
+  margin: 0;
+  padding-left: 10%;
 }
 
 .copyright h5 {
