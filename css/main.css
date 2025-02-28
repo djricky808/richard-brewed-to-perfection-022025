@@ -75,6 +75,56 @@ header li {
 
 section {
   padding: 20px;
+  background-color: var(--light-bg-color);
+}
+
+section:nth-child(even) {
+  background-color: var(--cream-color);
+}
+
+section h1 {
+  font-family: var(--greatvibes-font);
+  font-size: 100px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/*Values Section*/
+
+.values-gallery {
+  display: flex;
+}
+
+.values-panel {
+  position: relative;
+  width: 20%;
+  height: 500px;
+  margin: 20px;
+  overflow: hidden;
+}
+.values-panel img {
+  height: 500px;
+  margin: 0 auto;
+}
+
+.values-panel h2,
+.values-panel h3 {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.values-panel h2 {
+  bottom: 7%;
+  font-family: var(--greatvibes-font);
+  font-size: 48px;
+  color: var(--orange-header-color);
+}
+
+.values-panel h3 {
+  bottom: 5%;
+  color: var(--light-bg-color);
 }
 
 /* Footer Section */
@@ -113,7 +163,6 @@ footer {
 
 .address-line p {
   margin: 0;
-  padding-left: 10%;
 }
 
 .copyright h5 {
