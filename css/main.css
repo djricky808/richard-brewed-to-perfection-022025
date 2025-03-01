@@ -89,6 +89,37 @@ section h1 {
   margin: 10px auto;
 }
 
+/*About Us Section*/
+.about-us {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+.about-us img {
+  width: 100%;
+  margin: 0;
+  filter: brightness(70%);
+  position: absolute;
+}
+
+.paragraph-divider {
+  position: flex;
+}
+
+.about-us h1,
+.paragraph-divider {
+  position: relative;
+  z-index: 2;
+}
+
+.about-us h1,
+.about-us p {
+  color: var(--cream-color);
+  text-align: center;
+}
+
 /*Values Section*/
 
 .values-gallery {
