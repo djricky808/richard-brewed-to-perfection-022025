@@ -88,6 +88,32 @@ section h1 {
   text-align: center;
   margin: 10px auto;
 }
+/* Promo Carousel */
+.promo-carousel {
+  height: 800px;
+}
+
+.promo-carousel img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.visible {
+  display: block;
+  opacity: 0;
+  animation: fadein 1s forwards;
+}
+
+.invisible {
+  display: none;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
 
 /*About Us Section*/
 .about-us {
