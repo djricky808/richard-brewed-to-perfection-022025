@@ -203,6 +203,20 @@ section h1 {
   color: var(--light-bg-color);
 }
 
+/* Testimonial Section */
+
+#testimonials {
+  display: flex;
+  background-color: var(--cream-color);
+}
+
+#testimonials img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 /* Footer Section */
 footer {
   padding: 50px;
