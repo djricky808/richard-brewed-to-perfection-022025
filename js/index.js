@@ -32,24 +32,24 @@ setInterval(() => {
 //Testimonial Section
 const testimonials = [
   {
-    name: "Christina",
+    name: "Christina S.",
     picture: "../images/courteous.png",
     comment:
       "I love the staff here, they always get my mornings off to the right start.",
   },
   {
-    name: "Robert",
+    name: "Robert P.",
     picture: "../images/courteous.png",
     comment: "Their Mauna Kea Freeze is da bomb. Sweet and creamy, so ono!",
   },
   {
-    name: "Jayden",
+    name: "Jayden A.",
     picture: "../images/courteous.png",
     comment:
       "I love that have so many great events here.I love to connect with new people on Lava Javascript Thursdays.",
   },
   {
-    name: "Irena",
+    name: "Irena P.",
     picture: "../images/courteous.png",
     comment:
       "The staff here are so warm and friendly, they really do treat you like Ohana. Like family.",
@@ -69,7 +69,7 @@ function nextTestimonial() {
   testimonialSection.innerHTML = `
   <div class="testimonial-card">
     <div class="testimonial-left">
-
+      <img src="${testimonials[j].picture}" alt="${testimonials[j].picture}"/>
     </div>
     <div class="testimonial-right">
       <p>${testimonials[j].comment}<p>

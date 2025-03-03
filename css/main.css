@@ -90,12 +90,19 @@ section h1 {
 }
 /* Promo Carousel */
 .promo-carousel {
-  height: 800px;
+  height: 500px;
+}
+
+.promo-slide {
+  width: 100%;
+  height: 500px;
 }
 
 .promo-carousel img {
   width: 100%;
+  height: 100%;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .visible {
