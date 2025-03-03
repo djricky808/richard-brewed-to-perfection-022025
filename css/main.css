@@ -130,7 +130,7 @@ section h1 {
   padding: 0;
 }
 
-.about-us img {
+.about-us-bg {
   width: 100%;
   margin: 0;
   filter: brightness(70%);
@@ -138,13 +138,21 @@ section h1 {
 }
 
 .paragraph-divider {
-  position: flex;
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.paragraph-divider img {
+  height: 500px;
+  width: auto;
 }
 
 .about-us h1,
 .paragraph-divider {
   position: relative;
   z-index: 2;
+  margin: 50px auto;
 }
 
 .about-us h1,
@@ -154,6 +162,10 @@ section h1 {
 }
 
 /*Values Section*/
+.values-section p {
+  font-size: 2rem;
+  text-align: center;
+}
 
 .values-gallery {
   display: flex;
