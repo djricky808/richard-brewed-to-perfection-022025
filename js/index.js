@@ -46,7 +46,7 @@ const testimonials = [
     name: "Jayden A.",
     picture: "../images/courteous.png",
     comment:
-      "I love that have so many great events here.I love to connect with new people on Lava Javascript Thursdays.",
+      "I love that they have so many great events here.I love to connect with new people on Lava Javascript Thursdays.",
   },
   {
     name: "Irena P.",
