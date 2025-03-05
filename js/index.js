@@ -67,20 +67,30 @@ function nextTestimonial() {
     j += 1;
   }
   testimonialSection.innerHTML = `
-  <div class="testimonial-card">
+  <div class="testimonial-card fade-out">
     <div class="testimonial-left">
       <img src="${testimonials[j].picture}" alt="${testimonials[j].picture}"/>
     </div>
     <div class="testimonial-right">
-      <p>${testimonials[j].comment}<p>
+      <p>${testimonials[j].comment}</p>
       <h2>${testimonials[j].name}</h2>
     </div>
   </div>
   `;
 }
 
+function fadeIn() {
+  let testimonialCard = document.querySelector(".testimonial-card");
+  console.log(testimonialCard);
+  testimonialCard.classList.remove("fade-out");
+}
+
 nextTestimonial();
+fadeIn();
 
 setInterval(() => {
   nextTestimonial();
+  setTimeout(() => {
+    fadeIn();
+  }, 10);
 }, 5000);
